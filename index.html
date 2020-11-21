@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>American Airlines Survey</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+	<header id="header">
+		<h1 id="title">American Airline Passenger Satisfaction Survey</h1>
+		<p id="description"> 
+			Thank you for taking the time to help us improve our airline
+		</p>	
+	</header>
+	
+	<form  action="" class="survey-form">
+
+			<div class="form-group">
+				<label id="name-label">Name</label>
+				<input type="text" name="name" class="form-control" placeholder="Enter your name" required/>
+			</div>
+
+			<div class="form-group">
+				<label id="email-label">Email</label>
+				<input type="email" name="email" class="form-control" placeholder="Enter your email" required/>
+			</div>
+
+			<div class="form-group">
+				<label id="age-label">Age</label>
+				<input type="age" name="age" class="form-control" placeholder="Enter your age" required/>
+			</div>
+
+			<div class="form-group">
+				<p>Which of the following describes you best?</p>
+			<select id="dropdown" name="following" class="form-control" required>
+				<option value="" disabled selected>select one the the following that describes you best</option>
+				<option value="student">Student</option>
+				<option value="Employed">Employed</option>
+				<option value="self-employed">Self Employed</option>
+				<option value="retired">Retired</option>
+				<option value="not-employed">Not Employed</option>
+			</select><br>
+
+				<p>Please indicate how long you waited in line:</p>
+			<select id="dropdown" name="line" class="form-control" required>
+				<option value="" disabled selected>select how long you waited in line</option>
+				<option value="Not-Wait">Not Wait</option>
+				<option value="0-5-min.">0-5 min.</option>
+				<option value="6-10-min.">6-10 min.</option>
+				<option value="11-20-min.">11-20 min.</option>
+				<option value="20+-min.">20+ min.s</option>
+			</select><br>
+
+			<div class="form-group">
+				<fieldset>
+				<legend>Please rate the in-flight service on "airlines":</legend>
+				<div>
+
+				<input type="radio" name="source" value="Excellent" checked>
+				  	<label for="Excellent" class="inputradio" checked>Excellent</label>
+				</div>
+
+				<div>
+				<input type="radio" name="source" value="Good">
+				 	<label for="Good" class="inputradio" checked>Good</label>
+				</div>
+
+				<input type="radio" name="source" value="Poor" checked>
+				  	<label for="Poor" class="inputradio" checked>Poor</label>
+				</div>
+			</fieldset>
+
+			<div class="form-group">
+				<p id="quest">How often do you fly?</p>
+				<label for=""> 
+				<input type="radio" name="source" value="Once-a-week-or-more" class="inputradio">Once a week or more</label>
+
+				<label for="">
+				<input type="radio" name="source" value="2-3-times-a-month" class="inputradio">2-3 times a month</label>
+
+				<label for="">
+				<input type="radio" name="source" value="Once-a-month" class="inputradio">Once a month</label>
+
+				<label for="">	
+				<input type="radio" name="source" value="A-few-times-a-year" class="inputradio">A few times a year</label>
+
+				<label for="">
+				<input type="radio" name="source" value="Once-a-year-or-less" class="inputradio">Once a year or less</label>
+
+				<label for="">	
+				<input type="radio" name="source" value="Never" class="inputradio">Never</label><br>
+
+			<div class="form-group">
+				<p id="quest">Tell us how important of the following was in making your decision to use our airline:</p>
+				
+				<label for="">	
+				<input type="checkbox" name="prefer" class="checkbox" value="Departure-and-/-or-arrival-time-was-more-convenient">Departure and / or arrival time was more convenient</label>
+
+				<label for="">	
+				<input type="checkbox" name="prefer" class="checkbox" value="Flight-had-fewer-stops-or-better-connections">Flight had fewer stops or better connections</label>
+
+				<label for="">	
+				<input type="checkbox" name="prefer" class="checkbox" value="Air-fare-was-better">Air fare was better</label>
+
+				<label for="">	
+				<input type="checkbox" name="prefer" class="checkbox" value="Frequent-flyer-program">Frequent flyer program</label>
+
+				<label for="">	
+				<input type="checkbox" name="prefer" class="checkbox" value="Inflight-services-are-better-(meals,-movies,-flight-attendants,-etc.)">Inflight services are better (meals, movies, flight attendants, etc.)</label>
+
+				<label for="">	
+				<input type="checkbox" name="prefer" class="checkbox" value="Ground-services-are-better-(ticketing,-baggage-handling,-check-in,-etc.)">Ground services are better (ticketing, baggage handling, check-in, etc.)</label>
+
+				<label for="">	
+				<input type="checkbox" name="prefer" class="checkbox" value="Personal-preference-for">Personal preference for</label>
+
+				<label for="">	
+				<input type="checkbox" name="prefer" class="checkbox" value="Travel-agent-/-company-travel-department-recommendation">Travel agent / company travel department recommendation</label>
+
+				<label for="">	
+				<input type="checkbox" name="prefer" class="checkbox" value="Aircraft-preference">Aircraft preference</label><br>
+
+			<div class="form-group">
+				<p id="quest">Please tell us what can we do to improve:</p>
+					<textarea name="avis" id="avis" cols="30" rows="5" class="textarea" placeholder="Type a paragraph"></textarea><br><br>
+
+			<div class="form-group">
+				<button type="submit" id="submit" class="btn">submit</button>
+
+							</div>
+						</div>	
+					</div>
+				</div>	
+			</div>
+		</div>
+	</form>
+</body>
+</html>
